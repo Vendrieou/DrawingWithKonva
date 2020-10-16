@@ -1,0 +1,15 @@
+footer {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+footer button{
+  background: transparent;
+  border: 0;
+}

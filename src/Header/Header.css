@@ -1,0 +1,27 @@
+header {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  display: grid;
+  grid-template-columns: 4rem auto 4rem;
+  padding: 0.5em;
+}
+
+header img {
+  border-radius: 24px;
+  line-height: 4rem;
+}
+
+header h1 {
+  font-size: 1rem;
+  line-height: 4rem;
+  margin: 0;
+}
+
+header button {
+  background: transparent;
+  border: 0;
+}
