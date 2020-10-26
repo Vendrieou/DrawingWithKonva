@@ -1,12 +1,14 @@
 import React from 'react'
 import { Stage, Layer, Group, Rect, Circle } from 'react-konva'
+import Home from '../Home'
 
-const Car = ({
+const Bus = ({
     frontWheel,
     rearWheel
 }) => {
     return (
         <>
+        <Home />
             <Stage
               width={window.innerWidth - 20}
               height={window.innerHeight - 20}
@@ -56,4 +58,4 @@ const Car = ({
     )
 }
 
-export default Car
+export default Bus
